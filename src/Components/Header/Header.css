@@ -1,0 +1,95 @@
+.header{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 4px 6px -6px lightgray;
+    -moz-box-shadow: 0 4px 6px -6px lightgray;
+    box-shadow: 0 4px 6px -6px lightgray;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header img{
+    height: 40px;
+}
+.header li{
+    height: 80px;
+}
+.cart-value{
+    padding: 0 2px;
+}
+.sign-up-button{
+    color: white;
+    font-size: 12px;
+    background-color: crimson;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.sign-up-button:focus{
+    outline: none;
+}
+.sign-up-button:active{
+    transform: scale(.95);
+}
+.login-button{
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 6px 14px;
+    cursor: pointer;
+}
+.login-button:hover{
+    color: crimson;
+}
+.login-button:focus{
+    outline: none;
+}
+.login-button:active{
+    transform: scale(.95);
+}
+@media only screen and (min-width: 600px){
+    .container-fluid{
+        padding-left: 60px !important;
+        padding-right: 40px !important;
+    }
+    .header li{
+        padding: 0 5px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .container-fluid{
+        padding-left: 80px !important;
+        padding-right: 40px !important;
+    }
+    .cart-value{
+        padding: 0 10px;
+    }
+    .sign-up-button{
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 6px 20px;
+    }
+    .login-button{
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 10px 20px;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .container-fluid{
+        padding-left: 100px !important;
+        padding-right: 60px !important;
+    }
+    .header img{
+        width: 190px;
+        height: 50px;
+    }
+    .header li{
+        padding: 0px 10px;
+    }
+}

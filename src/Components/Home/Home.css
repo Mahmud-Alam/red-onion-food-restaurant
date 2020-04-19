@@ -1,0 +1,45 @@
+.food-select-div{
+    margin-top: 100px;
+    text-align: center;
+}
+.food-select-div ul{
+    display: flex;
+    list-style: none;
+}
+.food-select-div ul li{
+    list-style: none;
+}
+
+.food-select-div ul li.active button{
+    color: crimson;
+    border-bottom: 2px solid crimson;
+}
+.checkOut-button-div{
+    display: none;
+}
+@media only screen and (min-width: 600px){
+    .food-select-div{
+        margin-top: 0px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .checkOut-button-div{
+        display: block;
+        text-align: center;
+    }
+    .checkOut-button{
+        color: white;
+        font-weight: 500;
+        background-color: lightgray;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .checkOut-button:focus{
+        outline: none;
+    }
+    .checkOut-button:active{
+        transform: scale(.95);
+    }
+}

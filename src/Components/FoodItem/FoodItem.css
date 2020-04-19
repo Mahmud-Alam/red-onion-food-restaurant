@@ -1,0 +1,118 @@
+.foodItem{
+    display: block;
+}
+.foodItem-mobile{
+    display: none;
+}
+.foodItem .card img{
+    width: 240px;
+    height: 240px;
+    margin: 30px auto 10px;
+}
+.foodItem .card h4{
+    font-size: 24px;
+}
+.foodItem .card p{
+    font-size: 16px;
+}
+.foodItem .card h3{
+    font-size: 28px;
+}
+.foodItem .card{
+    text-align: center;
+    border: none !important;
+    border-radius: 10px !important;
+}
+.card:hover{
+    transition: all .5s ease-in-out;
+    box-shadow: 0 5px 13px 0px lightgray;
+}
+.my-5{
+    margin-top: 1rem !important;
+}
+@media only screen and (min-width: 600px){
+    .foodItem{
+        display: none;
+    }
+    .foodItem-mobile{
+        display: block;
+    }
+    .foodItem-mobile .card img{
+        width: 160px;
+        height: 160px;
+        margin: 20px auto 0px;
+    }
+    .foodItem-mobile .card h4{
+        font-size: 16px;
+    }
+    .foodItem-mobile .card p{
+        font-size: 12px;
+    }
+    .foodItem-mobile .card h3{
+        font-size: 18px;
+    }
+    .foodItem-mobile .card{
+        text-align: center;
+        border: none !important;
+        border-radius: 10px !important;
+    }
+}
+@media only screen and (min-width: 768px){
+    .foodItem-mobile{
+        display: none;
+    }
+    .foodItem{
+        display: block;
+    }
+    .foodItem .card{
+        text-align: center;
+        border: none !important;
+        border-radius: 10px !important;
+    }
+    .foodItem .card img{
+        width: 150px;
+        height: 150px;
+        margin: 30px auto 10px;
+    }
+    .foodItem .card h4{
+        font-size: 15px;
+    }
+    .foodItem .card p{
+        font-size: 10px;
+    }
+    .foodItem .card h3{
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .foodItem .card img{
+        width: 200px;
+        height: 200px;
+        margin: 30px auto 10px;
+    }
+    .foodItem .card h4{
+        font-size: 22px;
+    }
+    .foodItem .card p{
+        font-size: 16px;
+    }
+    .foodItem .card h3{
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width: 1368px){
+    .foodItem .card img{
+        width: 240px;
+        height: 240px;
+        margin: 30px auto 10px;
+    }
+    .foodItem .card h4{
+        font-size: 24px;
+    }
+    .foodItem .card p{
+        font-size: 16px;
+    }
+    .foodItem .card h3{
+        font-size: 28px;
+    }
+}
